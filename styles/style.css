@@ -1,0 +1,127 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+:root {
+  --color1: #243949;
+  --color2: #517fa4;
+}
+
+header {
+  padding: 150px 0;
+}
+
+footer,
+section {
+  padding: 50px 0;
+}
+
+section {
+  background-color: #f6f6f6;
+}
+
+header,
+footer {
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+footer {
+  padding: 30px 0;
+}
+
+.btn-itd {
+  display: block;
+  max-width: 160px;
+  margin: 20px auto;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-itd:hover {
+  background-color: var(--color1);
+  color: white;
+  cursor: pointer;
+}
+
+.itd-skill,
+.itd-roject {
+  margin: 0 auto 15px;
+}
+
+.itd-skill img {
+  width: 56px;
+  height: 56px;
+  display: block;
+  margin: 0 auto;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects a:hover {
+  cursor: pointer;
+}
+
+.itd-roject i {
+  color: var(--color2);
+  font-size: 36px;
+}
+
+.itd-roject {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--color1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 120px;
+  height: 3px;
+  background-color: var(--color1);
+  margin: 10px auto 40px;
+}
+
+.projects a:hover .line {
+  background-color: var(--color2);
+}
+
+.projects a:hover .itd-roject {
+  border: 3px solid var(--color2);
+}
+
+.projects a:hover .itd-roject i {
+  color: var(--color1);
+}
+
+.color-1 {
+  color: var(--color1);
+}
+
+.color-2 {
+  color: var(--color2);
+}
+
+.bg-1 {
+  color: var(--color1);
+}
+
+.bg-2 {
+  color: var(--color2);
+}
+
+.btn-itd-2 {
+  background-color: var(--color2);
+  color: white;
+}
+
+.btn-footer {
+  font-size: 20px;
+  border-radius: 50%;
+  margin: auto 5px;
+}
