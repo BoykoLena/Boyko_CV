@@ -104,6 +104,10 @@ footer {
   color: var(--color1);
 }
 
+.more-information {
+  padding-bottom: 20px;
+}
+
 .color-1 {
   color: var(--color1);
 }
